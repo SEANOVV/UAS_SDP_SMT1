@@ -24,7 +24,7 @@ if (!exists("data_bersih")) {
 
 # Ganti dengan nama kolom numerik yang ingin Anda analisis dari dataset Anda.
 # Contoh: kolom_analisis <- "harga_rumah"
-kolom_analisis <- "nama_kolom_numerik" 
+kolom_analisis <- "Pendapatan_Tahunan_Miliar_IDR" 
 
 # Pastikan kolom yang dipilih ada di dalam data
 if(!kolom_analisis %in% names(data_bersih)) {
@@ -120,3 +120,4 @@ print(paste("Boxplot disimpan di folder 'results' dengan nama boxplot_", kolom_a
 
 # Pesan akhir
 print("Analisis deskriptif selesai. Jangan lupa untuk menginterpretasikan hasilnya di file README.md.")
+
