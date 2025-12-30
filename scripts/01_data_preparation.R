@@ -19,7 +19,7 @@
 # -----------------------------------------------------------------
 # 'tidyverse' adalah kumpulan paket R yang sangat berguna untuk manipulasi dan visualisasi data.
 # Jika Anda belum menginstalnya, hapus tanda '#' di bawah dan jalankan.
-# install.packages("tidyverse")
+install.packages("tidyverse")
 
 library(tidyverse)
 
@@ -32,7 +32,7 @@ library(tidyverse)
 
 tryCatch({
   # Ganti nama file di bawah ini
-  file_path <- "../data/nama_file_data.csv"
+  file_path <- "../data/data_startup_saas.csv"
   data <- read_csv(file_path)
   
   # Pesan jika berhasil
@@ -83,3 +83,4 @@ data_bersih <- data
 
 # Pesan akhir
 print("Persiapan data selesai. Variabel 'data_bersih' siap digunakan untuk analisis selanjutnya.")
+
